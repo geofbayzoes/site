@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          welcome to hikkawaka
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <video className="hikkawaka-video"
+            src="https://cdn.discordapp.com/attachments/256336729617858560/712949566324080690/welcome.mp4" autoPlay>
+          <p>>:(</p>
+        </video>
       </header>
     </div>
   );
